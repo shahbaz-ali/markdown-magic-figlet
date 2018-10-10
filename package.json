@@ -1,0 +1,35 @@
+{
+  "name": "markdown-magic-figlet",
+  "version": "1.0.0",
+  "description": "Print FIGfont texts in markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "node example.js",
+    "prepublish": "npm run docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lafourchette/markdown-magic-figlet.git"
+  },
+  "keywords": [
+    "markdown-magic",
+    "figlet",
+    "figfont",
+    "plugin"
+  ],
+  "author": "Alexis Tondelier <atondelier@lafourchette.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lafourchette/markdown-magic-figlet/issues"
+  },
+  "homepage": "https://github.com/lafourchette/markdown-magic-figlet#readme",
+  "dependencies": {
+    "figlet": "1.x",
+    "find-root": "1.x",
+    "lodash": "4.x"
+  },
+  "devDependencies": {
+    "markdown-magic": "0.1.25"
+  }
+}
